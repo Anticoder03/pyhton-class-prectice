@@ -177,7 +177,7 @@ Child Skills: Sports, Dancing
 
 ## 🚀 How to Run
 
-1. Save the code in any Python file, e.g., `oops_examples.py`
+1. Save the code in any Python file, e.g., `first.py`
 2. Run:
 
 ```
