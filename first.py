@@ -297,3 +297,18 @@ ashish.info()
 #            ---------
 #            | Child |
 #           ---------
+
+
+# method Overloading
+
+class Method:
+    def add(name = None):
+        if name == None:
+            print("Hello")
+        else:
+            print(f'Hello {name}')
+            
+
+m1 = Method()
+m1.add()
+m1.add("Ashish")
