@@ -310,5 +310,18 @@ class Method:
             
 
 m1 = Method()
-m1.add()
-m1.add("Ashish")
+# m1.add()
+# m1.add("Ashish")
+
+
+# operator Overloading
+class Oprat:
+    def __init__(self,a):
+        self.a = a
+        
+    def __add__(self,other):
+        return self.a + other.a
+op1 = Oprat(5)
+op2 = Oprat(10)
+
+print(op1 + op2)  # Output: 15
