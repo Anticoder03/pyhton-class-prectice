@@ -324,4 +324,4 @@ class Oprat:
 op1 = Oprat(5)
 op2 = Oprat(10)
 
-print(op1 + op2)  # Output: 15
+print(op1 + op2)  
